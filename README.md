@@ -76,21 +76,26 @@ This system processes financial transactions in real-time using Apache Kafka and
 
 1. **Clone repository:**
 ```bash
-git clone https://github.com/yourusername/fraud-detection-system.git
-cd fraud-detection-system
+git clone https://github.com/ElijahFlores/data-engineering-portfolio-fraud-detection-system
+cd data-engineering-portfolio-fraud-detection-system
 ```
 
 2. **Start infrastructure:**
 ```bash
 docker-compose up -d
-sleep 30  # Wait for Kafka initialization
+# Wait until all containers are healthy
+docker-compose ps
 ```
 
 3. **Install Python dependencies:**
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv        # Mac/Linux
+# OR for Windows: python -m venv venv
+source venv/bin/activate    # Mac/Linux
+# OR Windows: venv\Scripts\activate
+pip install --upgrade pip
 pip install -r requirements.txt
+
 ```
 
 4. **Run pipeline (4 terminals):**
