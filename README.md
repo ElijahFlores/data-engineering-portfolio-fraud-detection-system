@@ -182,8 +182,8 @@ fraud-detection-system/
 
 **Elijah Flores**  
 Email: altonflores@yahoo.com  
-LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/elijahflores/)  
-GitHub: [@yourusername](https://github.com/ElijahFlores)
+LinkedIn: [linkedin.com/in/elijahflores](https://www.linkedin.com/in/elijahflores/)  
+GitHub: [@ElijahFlores](https://github.com/ElijahFlores)
 
 ---
 
